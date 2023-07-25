@@ -8,9 +8,30 @@ button, .coming-soon {
   transition: .30s;
 }
 
+.coming-soon {
+  display: block;
+  margin-bottom: 50px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .shop-page, .content-page, .home-page {
   background-image: url(backgrounds/mainbg.jpg);
   background-size: 100%;
+}
+
+.return {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: right;
 }
 
 .landing-image {
@@ -34,7 +55,7 @@ button, .coming-soon {
   height: 16px;
 }
 
-.social-button, .coming-soon {
+.social-button {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -82,4 +103,21 @@ button, .coming-soon {
 .img-gallery img {
   width: 100%;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.contact-button:active,.shop-button:active,.social-button:active,.content-button:active {
+  color: red;
+  font-size: 16pt;
+}
+.landing-image {
+  width: 80px;
+}
+
+.shop-page, .content-page, .home-page {
+  background-image: url(backgrounds/mobilebg.jpg);
+  background-size: 100%;
+}
+
 }
