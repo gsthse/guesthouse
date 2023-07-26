@@ -24,8 +24,7 @@ body {
 }
 
 .shop-page, .content-page, .home-page {
-  background-image: url(backgrounds/mainbg.jpg);
-  background-size: 100%;
+  background-color: black;
 }
 
 .return {
@@ -116,8 +115,7 @@ body {
 }
 
 .shop-page, .content-page, .home-page {
-  background-image: url(backgrounds/mobilebg.jpg);
-  background-size: 100%;
+  background-color: black;
 }
 
 }
