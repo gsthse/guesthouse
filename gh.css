@@ -19,8 +19,11 @@ button, .coming-soon {
 }
 
 body {
+  background-image: url("backgrounds/mainbg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .shop-page, .content-page, .home-page {
@@ -114,8 +117,9 @@ body {
   width: 80px;
 }
 
-.shop-page, .content-page, .home-page {
-  background-color: black;
+body {
+  background-image: url("backgrounds/mobilescroll.jpg");
+  background-repeat: repeat;
 }
 
 }
