@@ -19,7 +19,7 @@ button, .coming-soon {
 }
 
 body {
-  background-image: url("backgrounds/mainbg.jpg");
+  background: url("backgrounds/mainbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -118,7 +118,7 @@ body {
 }
 
 body {
-  background-image: url("backgrounds/mobilescroll.jpg");
+  background: url("backgrounds/mobilescroll.jpg");
 }
 
 }
