@@ -1,4 +1,4 @@
-button, .coming-soon {
+button, .coming-soon, label {
   font-family: courier;
   font-size: 13pt;
   font-weight: bold;
@@ -24,14 +24,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  font-family: courier;
+  color: white;
 }
 
-.shop-page, .content-page, .home-page {
-  background-color: black;
-}
-
-.return {
-  margin-top: 50px;
+.return-button {
+  margin-top: 30px;
   margin-right: 50px;
   text-align: right;
 }
@@ -87,9 +85,10 @@ body {
   height: 16px;
 }
 
-.contact-button:hover,.shop-button:hover,.social-button:hover,.content-button:hover {
+button:hover {
   color: red;
   font-size: 16pt;
+  cursor: pointer;
 }
 
 .img-gallery {
@@ -113,6 +112,7 @@ body {
   color: red;
   font-size: 16pt;
 }
+
 .landing-image {
   width: 80px;
 }
@@ -121,4 +121,102 @@ body {
   background: url("backgrounds/mobilescroll.jpg");
 }
 
+.shop-button {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 16px;
+}
+
+.social-button {
+  margin: 0;
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 16px;
+}
+
+.contact-button {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 16px;
+}
+
+.content-button {
+  margin: 0;
+  position: absolute;
+  top: 67.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 16px;
+}
+
+}
+
+body {font-family: courier;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  display: block;
+  width: 300px;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: courier;
+  background-color: rgba(58, 58, 58, 0.5);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+input[type=submit] {
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactform {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+.submit-button {
+  margin: 0;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.build-label {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(58, 58, 58, 0.95);
 }
