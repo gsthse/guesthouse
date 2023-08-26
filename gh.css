@@ -32,6 +32,11 @@ body {
   margin-top: 30px;
   margin-right: 50px;
   text-align: right;
+  margin: 0;
+  position: absolute;
+  top: 8%;
+  left: 92%;
+  transform: translate(-50%, -50%);
 }
 
 .landing-image {
@@ -51,8 +56,6 @@ body {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .social-button {
@@ -61,8 +64,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .contact-button {
@@ -71,8 +72,6 @@ body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .content-button {
@@ -81,8 +80,6 @@ body {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 button:hover {
@@ -108,9 +105,52 @@ button:hover {
 
 @media only screen and (max-width: 1024px) {
 
-.contact-button:active,.shop-button:active,.social-button:active,.content-button:active {
+.contact-button,.shop-button,.social-button,.content-button {
+  background-color: rgba(58, 58, 58, 0.5);
+  width: 130px;
+  height: 40px;
+  text-align: left;
+  padding-top: 15px;
+  border: .1px solid white;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  transition: .30s;
+}
+
+.contact-button:active,.shop-button:active,.social-button:active,.content-button:active, .return-button:active {
   color: red;
-  font-size: 16pt;
+  border: 1px solid red;
+  background-color: rgba(122, 23, 23, 0.5);
+}
+
+.return-button {
+  margin: 0;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  background-color: rgba(58, 58, 58, 0.5);
+  height: 30px;
+  border: .1px solid white;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  transition: .30s;
+  text-align: center;
+}
+
+.submit-button {
+  width: 120px;
+  background-color: rgba(58, 58, 58, 0.5);
+  height: 30px;
+  border: .1px solid white;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 3px;
+  transition: .30s;
+  text-align: center;
 }
 
 .landing-image {
@@ -127,8 +167,6 @@ body {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .social-button {
@@ -137,8 +175,6 @@ body {
   top: 52.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .contact-button {
@@ -147,8 +183,6 @@ body {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 .content-button {
@@ -157,8 +191,6 @@ body {
   top: 67.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
-  height: 16px;
 }
 
 }
