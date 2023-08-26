@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>GUESTHOUSE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="ghimage/favicon.png">
+    <link rel="stylesheet" href="gh.css">
+  </head>
+  <body class="contact-page">
 
+    <div class="return-button">
+      <form action="gh.html">
+        <button class="return-button" type="submit">
+          &#60; return
+        </button>
+      </form>
+    </div>
+<div class="contactform">
+  <form action="https://formsubmit.co/gsthse.la@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://gsthse.com/thankyou.html">
+    
+    <label for="email">email</label>
+    <input type="text" name="email" placeholder="your email.." required>
+
+    <label for="name">name</label>
+    <input type="text" id="name" name="name" placeholder="your name.." required>
+
+    <label for="inqtype">inquiry type</label>
+    <select id="inqtype" name="inqtype" required>
+      <option value="Music">music</option>
+      <option value="Fashion">fashion</option>
+      <option value="Culinary">culinary</option>
+      <option value="Jewelery">jewelry</option>
+      <option value="Architecture">architecture</option>
+      <option value="Design">design</option>
+    </select>
+
+    <label for="subject">subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <button class="submit-button" type="submit">&lt; submit &gt;</button>
+  </form>
+</div>
+
+
+  </body>
+</html>
