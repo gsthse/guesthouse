@@ -50,7 +50,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.shop-button {
+.shop-button, .design-button {
   margin: 0;
   position: absolute;
   top: 45%;
@@ -58,7 +58,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.social-button {
+.social-button, .fashion-button {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -66,7 +66,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.contact-button {
+.contact-button, .music-button {
   margin: 0;
   position: absolute;
   top: 55%;
@@ -78,6 +78,14 @@ body {
   margin: 0;
   position: absolute;
   top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-button {
+  margin: 0;
+  position: absolute;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -105,23 +113,9 @@ button:hover {
 
 @media only screen and (max-width: 1024px) {
 
-.contact-button,.shop-button,.social-button,.content-button {
-  background-color: rgba(58, 58, 58, 0.5);
-  width: 130px;
-  height: 40px;
-  text-align: left;
-  padding-top: 15px;
-  border: .1px solid white;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 3px;
-  transition: .30s;
-}
-
 .contact-button:active,.shop-button:active,.social-button:active,.content-button:active, .return-button:active {
   color: red;
-  border: 1px solid red;
-  background-color: rgba(122, 23, 23, 0.5);
+  border: .1px solid red;
 }
 
 .return-button {
@@ -130,38 +124,24 @@ button:hover {
   top: 8%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 120px;
-  background-color: rgba(58, 58, 58, 0.5);
-  height: 30px;
-  border: .1px solid white;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 3px;
-  transition: .30s;
   text-align: center;
 }
 
 .submit-button {
   width: 140px;
-  background-color: rgba(58, 58, 58, 0.5);
   height: 30px;
-  border: .1px solid white;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 3px;
-  transition: .30s;
   text-align: center;
 }
 
 .landing-image {
-  width: 80px;
+  width: 70px;
 }
 
 body {
   background: url("backgrounds/mobilescroll.jpg");
 }
 
-.shop-button {
+.shop-button, .design-button {
   margin: 0;
   position: absolute;
   top: 45%;
@@ -169,7 +149,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.social-button {
+.social-button, .fashion-button {
   margin: 0;
   position: absolute;
   top: 52.5%;
@@ -177,7 +157,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.contact-button {
+.contact-button, .music-button {
   margin: 0;
   position: absolute;
   top: 60%;
@@ -193,6 +173,26 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.about-button {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-info {
+  max-width: 250px;
+}
+
+.build-button {
+  color: rgba(37, 37, 37, 0.637) !important;
+}
+
+input[type=text], select, textarea {
+  max-width: 300px;
+}
+
 }
 
 body {font-family: courier;}
@@ -200,7 +200,7 @@ body {font-family: courier;}
 
 input[type=text], select, textarea {
   display: block;
-  width: 300px;
+  width: 500px;
   padding: 12px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -244,11 +244,35 @@ label {
   transform: translate(-50%, -50%);
 }
 
-.build-label {
+.build-button {
   margin: 0;
   position: absolute;
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgba(58, 58, 58, 0.95);
+}
+
+.build-button:hover {
+  color: rgba(146, 146, 146, 0.95);
+  font-size: 13pt;
+}
+
+.updates-page {
+  background: url("backgrounds/018_na.jpg"); 
+}
+
+.about-info {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(58, 58, 58, 0.5);
+  padding: 10px;
+  padding-right: 20px;
+  width: 500px;
+}
+
+.signoff {
+  text-align: right;
 }
