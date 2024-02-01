@@ -8,6 +8,22 @@ button, .coming-soon, label {
   transition: .30s;
 }
 
+section {
+  display: flex;
+  gap: 30px;
+  width: 800px;
+  margin: auto;
+  margin-top: 350px;
+}
+
+.album {
+  transition: .3s;
+}
+
+.album:hover {
+  margin-top: -20px;
+}
+
 .coming-soon {
   display: block;
   margin-bottom: 50px;
@@ -51,6 +67,8 @@ body {
 }
 
 .shop-button, .design-button {
+  padding-top: 30px;
+  display: block;
   margin: 0;
   position: absolute;
   top: 45%;
@@ -59,6 +77,7 @@ body {
 }
 
 .social-button, .fashion-button {
+  padding-top: 30px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -67,6 +86,7 @@ body {
 }
 
 .contact-button, .music-button {
+  padding-top: 30px;
   margin: 0;
   position: absolute;
   top: 55%;
@@ -75,6 +95,7 @@ body {
 }
 
 .content-button {
+  padding-top: 30px;
   margin: 0;
   position: absolute;
   top: 60%;
@@ -83,6 +104,7 @@ body {
 }
 
 .about-button {
+  padding-top: 30px;
   margin: 0;
   position: absolute;
   top: 65%;
