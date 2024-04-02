@@ -12,11 +12,14 @@ section {
   display: flex;
   gap: 30px;
   width: 800px;
-  margin: auto;
-  margin-top: 350px;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-img {
+.homepagelogo {
   padding-top: 120px;
   display: block;
 }
@@ -27,6 +30,14 @@ nav {
   padding-top: 50px;
   width: 100px;
   gap: 35px;
+}
+
+.contentnav {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 a {
